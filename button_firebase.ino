@@ -3,8 +3,8 @@
 
 #define FIREBASE_HOST "Yhttps://nodemcu-led-b3637.firebaseio.com/" //Do not include https:// in FIREBASE_HOST
 #define FIREBASE_AUTH "bk1ScvsVBNfLitAt4pZO3EqEtM6SfC2cLn7MJAcb"
-#define WIFI_SSID "Subbu"
-#define WIFI_PASSWORD "87654321"
+#define WIFI_SSID "Anonymous"
+#define WIFI_PASSWORD "batman123"
 
 //Define FirebaseESP8266 data object
 FirebaseData firebaseData;
