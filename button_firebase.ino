@@ -16,7 +16,7 @@ FirebaseJson json;
 const int trigPin1 = D0; // for First UDM Sensor
 const int echoPin1 = D1;
 
-const int trigPin2 = D2;
+const int trigPin2 = D2; // For Second UDM Sensor
 const int echoPin2 = D3;
 
 // defines variables
