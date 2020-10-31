@@ -48,7 +48,7 @@ for c in contours:
 
 if count is None:
  detected = 0
- print("No contour detected")
+ print("No Contour Detected")
 else:
  detected = 1
 
@@ -86,7 +86,7 @@ for char in text:
         
 print(new_string)
 
-out = cv.putText(image, text, (420,450), cv.FONT_HERSHEY_SIMPLEX,0.75, (255,255,255), 1, cv.LINE_AA)
+out = cv.putText(image, text, (420,450), cv.FONT_HERSHEY_SIMPLEX,1, (255,255,255), 1, cv.LINE_AA)
 cv.imshow('Output', out)
 cv.waitKey(0)
 cv.destroyAllWindows()
