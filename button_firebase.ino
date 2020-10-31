@@ -13,7 +13,7 @@ FirebaseJson json;
 
 
 /*/ defines pins numbers
-const int trigPin1 = D0;
+const int trigPin1 = D0; // for First UDM Sensor
 const int echoPin1 = D1;
 
 const int trigPin2 = D2;
